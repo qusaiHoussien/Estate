@@ -29,32 +29,32 @@ export default function LocationAndNearPlaces() {
   return (
     <div>
       <div className="row p-5">
-        <div className="col ">
+        <div className="col-lg-4 col-12 ">
           {ShowNearByCard({ title: "House Location", withButton: false })}
         </div>
 
-        <div className="col ">
+        <div className="col-lg-2 col-12 ">
           {ShowNearByCard({
             title: "Resturant NearBy",
             imgSrc: "./resturant.png",
             withButton: true,
           })}
         </div>
-        <div className="col ">
+        <div className="col-lg-2 col-12 ">
           {ShowNearByCard({
             title: "Hospital NearBy",
             imgSrc: "./hospital.png",
             withButton: true,
           })}
         </div>
-        <div className="col ">
+        <div className="col-lg-2 col-12 ">
           {ShowNearByCard({
             title: "Parks NearBy",
             imgSrc: "./P.png",
             withButton: true,
           })}
         </div>
-        <div className="col ">
+        <div className="col-lg-2 col-12 ">
           {ShowNearByCard({
             title: "School NearBy",
             imgSrc: "./school.jfif",
