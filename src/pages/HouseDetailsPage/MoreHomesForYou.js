@@ -23,7 +23,7 @@ export default function MoreHomesForYou() {
   return (
     <div className="row ps-5">
       {homearray.map((item) => (
-        <div className="col">
+        <div className="col-lg-3 col-md-6 col-12">
           <Card>
             <Card.Img src={item.cImg}></Card.Img>
             <Card.Body>
